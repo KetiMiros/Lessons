@@ -11,3 +11,4 @@ for user_percent in range(101):
         print(user_percent, 'процента')
     else:
         print(user_percent, 'процентов')
+# пока что не разобралась как сделать вывод 1 раз,а не 100)
