@@ -22,9 +22,9 @@ wrong_phrase = ['в', '5', 'часов', '17', 'минут', 'температу
 
 for i, v in enumerate(wrong_phrase):
     if v.isdigit():
-        wrong_phrase[i] = f"'{int(v):02}'"
+        wrong_phrase[i] = f'"{int(v):02}"'
     elif v[1:].isdigit():
-        wrong_phrase[i] = f"'{v[0]}{int(v[1:]):02}'"
+        wrong_phrase[i] = f'"{v[0]}{int(v[1:]):02}"'
 
 print(wrong_phrase)
 print(" ".join(wrong_phrase))
