@@ -3,3 +3,6 @@
 # функции currency_rates(). Убедиться, что ничего лишнего не происходит
 
 
+import utils
+
+print(utils.currency_rates("EUR"))

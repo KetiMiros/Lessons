@@ -12,6 +12,7 @@
 
 import requests
 
+
 from requests import get, utils
 from decimal import Decimal
 
