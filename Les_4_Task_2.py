@@ -29,6 +29,6 @@ def currency_rates(code):
 
 
 
-print(currency_rates("USD"))
+print(currency_rates("uSD"))
 print(currency_rates("EURO"))       #вернет None т.к. неправильно написан код валюты
 print(currency_rates("EUR"))
