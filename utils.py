@@ -1,4 +1,4 @@
-# currency_rates = 1
+
 
 import requests
 from decimal import *
