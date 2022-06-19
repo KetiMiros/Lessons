@@ -20,10 +20,10 @@ class Position(Worker):
     def get_full_name(self):
         return f"{self.name} {self.surname}"
 
-    def get_full_profit(self):
+    def get_total_income(self):
         return f"{sum(self._income.values())}"
 
 manager = Position("Jony", "Milton", "SEO", 500000, 125000)
 print(manager.get_full_name())
 print(manager.position)
-print(manager.get_full_profit)
+print(manager.get_total_income)
