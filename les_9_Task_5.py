@@ -22,7 +22,7 @@ class Pencil(Stationery):
         print(f"Start drawing with {self.title} pencil!")
 
 
-class Marker(Stationery):
+class Handle(Stationery):
     def draw(self):
         print(f"Start drawing with {self.title} marker!")
 
@@ -30,7 +30,7 @@ class Marker(Stationery):
 stat = Stationery()
 pen = Pen("Parker")
 pencil = Pencil("Faber-Castell")
-marker = Marker("COPIK")
+marker = Handle("COPIK")
 
 office_suplies = [stat, pen, pencil, marker]
 
