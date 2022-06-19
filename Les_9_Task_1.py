@@ -7,26 +7,26 @@
 
 
 # -----------------------------------------------------1вариант-----------------------------------------------------
-# from time import sleep
-#
-#
-# class TrafficLight:
-#     __color = "Чёрный"
-#
-#     def running(self):
-#         while True:
-#             print("TrafficLight is red now")
-#             sleep(7)
-#             print("TrafficLight is yellow now")
-#             sleep(2)
-#             print("TrafficLight is green now")
-#             sleep(7)
-#             print("TrafficLight is yellow now")
-#             sleep(2)
+from time import sleep
 
 
-# trafficLight = TrafficLight()
-# trafficLight.running()
+class TrafficLight:
+    __color = "Чёрный"
+
+    def running(self):
+        while True:
+            print("TrafficLight is red now")
+            sleep(7)
+            print("TrafficLight is yellow now")
+            sleep(2)
+            print("TrafficLight is green now")
+            sleep(7)
+            print("TrafficLight is yellow now")
+            sleep(2)
+
+
+trafficLight = TrafficLight()
+trafficLight.running()
 
 
 # -------------------------------------------------------2вариант---------------------------------------------------------
