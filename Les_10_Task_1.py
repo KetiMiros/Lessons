@@ -20,7 +20,7 @@ class Matrix:
                 for line in range(len(self.data))]
             return Matrix(m)
         except IndexError:
-            return  f'Ошибка размеренностей матриц'
+            return f'Ошибка размеренностей матриц'
 
 
 m_1 = [[3, 5, 32], [2, 4, 6], [-1, 64, -8]]
