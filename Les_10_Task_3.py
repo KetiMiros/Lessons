@@ -15,9 +15,9 @@
 
 class Cell:
     def __init__(self, nums):
-        self.nums = nums                #13
+        self.nums = nums                
 
-    def make_order(self, rows):         #5
+    def make_order(self, rows):         
         return '\n'.join(['🌍' * rows for _ in range(self.nums // rows)]) + '\n' + '🌍' * (self.nums % rows)
 
     def __add__(self, other):
